@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:padding="5dp"
+    android:layout_height="40dp">
+
+    <ImageView
+        android:id="@+id/imgAvatar"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/baseline_lock_24"/>
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="2022/10/10"
+        android:layout_weight="2"/>
+    <TextView
+        android:id="@+id/tvPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="$40"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/tvReservationCancell"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="(Easy rules)"
+        android:layout_weight="4"/>
+
+</LinearLayout>
